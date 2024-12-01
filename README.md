@@ -18,3 +18,11 @@ Your goal is to build a dynamic pricing model that incorporates the provided fea
 - **`Vehicle_Type`**: The type of vehicle requested (e.g., sedan, SUV).
 - **`Expected_Ride_Duration`**: Estimated time of the ride in minutes.
 - **`Historical_Cost_of_Ride`**: The previous fare for a similar ride (dependent variable we want to predict).
+
+## Overview
+
+The problem addressed in this report is the need for a dynamic pricing strategy in the ride-sharing industry to optimize fares based on real-time market conditions. Currently, the company relies solely on ride duration to determine fares, which may not account for the varying factors influencing demand and supply. 
+
+To overcome this limitation, the company aims to develop a data-driven predictive model using historical ride data. The model will dynamically adjust prices by considering critical factors such as the number of riders, number of available drivers, customer loyalty, location category, time of booking, and other relevant attributes. 
+
+This solution will enable the company to enhance its pricing strategy, improving competitiveness and ensuring fair fares for both riders and drivers while maximizing operational efficiency.
