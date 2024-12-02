@@ -100,21 +100,25 @@ These metrics ensured the model's reliability and accuracy in predicting optimal
 
 # EDA
 ![Alt Text](images/timesseriesplot.png)
+
 The data reveals periods of both upward and downward trends, indicating fluctuations in ride costs over time. Notable peaks and troughs suggest variability in pricing influenced by factors such as demand, location, or ride type. The minimum cost of $25.99 represents a point of low pricing, possibly due to off-peak times or discounts. The maximum cost of $836.12 highlights a significant fare, likely influenced by factors such as long ride duration, premium vehicle type, or peak demand.
 
 **Insights and Implications:** The observed trends emphasize the potential for dynamic pricing strategies to capture and respond to market demand variability effectively.
 
 ![Alt Text](images/ride_duration.png)
+
 The data indicates a mix of short and long rides, demonstrating the service's versatility for different trip purposes. The variety in ride duration shows usage for both quick errands and lengthy commutes. Short durations reflect urban commutes or errands. Long durations suggest intercity or long-distance rides, often associated with premium services.
 
 **Insights and Implications:** The variability in ride duration indicates a need for pricing segmentation based on trip type and distance. Tailoring pricing strategies can better cater to diverse customer needs.
 
 ![Alt Text](images/past_ride.png)
+
 The distribution highlights periods of high engagement with frequent riders, interspersed with newer or less active customers. These patterns may reflect the impact of loyalty programs or targeted marketing strategies to encourage repeat rides. The minimum value represents new customers with no prior rides. The maximum value signifies highly engaged customers, likely benefiting from loyalty incentives or frequent usage.
 
 **Insights and Implications:** Patterns in customer ride history reveal opportunities to target specific customer segments with promotions or incentives. For example, occasional riders could be encouraged to ride more frequently through loyalty rewards or tailored offers.
 
 ![Alt Text](images/demand-supply.png)
+
 Frequent fluctuations in the demand-supply ratio indicate periods of high demand with insufficient driver availability. Extreme spikes suggest unusual ride demand, potentially caused by events, adverse weather, or city-wide activities. A low ratio reflects a balanced or oversupplied market. A high ratio signifies a severe demand-supply imbalance, likely leading to surge pricing.
 
 **Insights and Implications:** Spikes in the ratio suggest opportunities to optimize driver allocation in areas or times of high demand. This could help mitigate extreme surges, improve service quality, and reduce fare volatility.
