@@ -98,3 +98,5 @@ The final model was evaluated using standard regression metrics, including:
 
 These metrics ensured the model's reliability and accuracy in predicting optimal ride fares. This comprehensive approach allowed for the successful implementation of a dynamic pricing strategy to enhance revenue and operational performance.
 
+# EDA
+![Alt Text](images/timesseriesplot.png)
