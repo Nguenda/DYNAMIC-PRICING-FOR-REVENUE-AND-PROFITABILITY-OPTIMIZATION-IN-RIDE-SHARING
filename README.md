@@ -89,13 +89,13 @@ The data is public data sourced from Kaggle. The collected datasets were cleaned
 4. **Outlier Detection and Treatment**: Outliers were identified in numerical features and treated to avoid skewing the model results.
 5. **Normalization and Scaling**: Numerical features, such as `Expected_Ride_Duration` and `Number_of_Past_Rides`, were normalized or scaled to ensure consistent ranges for all variables.
 
-#### Key Observations About The Data
+##### Key Observations About The Data
 1. The dataset lacks a datetime column but includes features like Time_of_Booking, which indicates temporal aspects of ride requests (e.g., Night and Evening).
 2. The rows may or may not be sequentially ordered in time. 
 
 
 
-### Strategies Implemented
+#### Strategies Implemented
 
 To address the problem, the following strategies were employed:
 
@@ -105,21 +105,21 @@ To address the problem, the following strategies were employed:
 
 3. **Dynamic Pricing Strategy**: Developed a dynamic pricing model using machine learning algorithms to predict optimal fares based on factors such as demand, supply, location, and booking time.
 
-### Simulation for Pricing and Promotions
+#### Simulation for Pricing and Promotions
 
 Pricing and promotional strategies were developed and simulated at various levels, including market and booking channels. For example:
 
 - **Simulation of `Booking_Channel`**: Analyzed and simulated booking patterns based on `Time_of_Booking` and `Location_Category` to identify optimal pricing and promotional opportunities.
 - **Market-Specific Adjustments**: Tailored pricing and promotions for different markets to maximize revenue and customer satisfaction.
 
-### Machine Learning Model Development
+#### Machine Learning Model Development
 
 For the development of the dynamic pricing model, the following steps were performed:
 
 1. **Dataset Splitting**: The dataset was split into training and testing sets using the `train_test_split` function from `sklearn.model_selection` to ensure robust model evaluation.
 2. **Baseline Model**: Linear Regression was used as a baseline model for predicting ride fares.
 
-### Model Evaluation
+#### Model Evaluation
 
 The final model was evaluated using standard regression metrics, including:
 
