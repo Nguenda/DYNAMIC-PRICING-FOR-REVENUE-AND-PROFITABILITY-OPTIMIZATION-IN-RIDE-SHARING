@@ -28,43 +28,20 @@ To overcome this limitation, the company aims to develop a data-driven predictiv
 This solution will enable the company to enhance its pricing strategy, improving competitiveness and ensuring fair fares for both riders and drivers while maximizing operational efficiency. 
 
 To ensure a clear understanding of the project and its limitations, the following assumptions are made based on the data and project requirements:
-
-1. **Data Completeness and Accuracy**  
-   - The dataset includes all necessary features to predict optimal fares, with no critical feature missing.  
-   - The dataset values (e.g., `Number_of_Riders`, `Number_of_Drivers`, `Historical_Cost_of_Ride`) are accurate and reflect real-world scenarios.  
-
-2. **Chronological Organization**  
-   - Rows in the dataset represent events in chronological order, and the rows are sequential.  
-
-3. **Uniqueness of Rides**  
-   - Each ride request is unique, with no overlapping rides for the same driver or rider.  
-
-4. **Demand-Supply Representation**  
-   - `Number_of_Riders` and `Number_of_Drivers` accurately represent real-time demand and supply at the time of booking.  
-
-5. **Temporal Features**  
-   - The `Time_of_Booking` feature effectively captures temporal demand patterns (e.g., peak and off-peak times) without requiring detailed timestamps.  
-
-6. **Geographical Impact**  
-   - The `Location_Category` feature reflects geographical cost differences (e.g., urban areas generally have higher fares than suburban ones).  
-
-7. **Vehicle Type Variations**  
-   - Different `Vehicle_Type` categories have unique base fare structures, with Premium vehicles costing more than Economy vehicles.  
-
-8. **Independence of Instances**  
-   - Each ride instance is independent of others, with no dependency on previous or future rides.  
-
-9. **Model Scope**  
-   - The model predicts fares based solely on the provided features, excluding external factors like fuel prices, weather, or traffic conditions.  
-
-10. **Price Elasticity**  
-    - Fares can be adjusted dynamically without significantly affecting demand; small price increases are unlikely to drastically reduce ride requests.  
-
-11. **Feature Relationships**  
-    - The relationships between features (e.g., demand-supply ratio and `Historical_Cost_of_Ride`) are stable and consistent across the dataset.  
-
-12. **Real-Time Deployment**  
-    - Real-time data for `Number_of_Riders`, `Number_of_Drivers`, and `Time_of_Booking` will be available during deployment.  
+ 
+- The dataset includes all necessary features to predict optimal fares, with no critical feature missing.  
+- The dataset values (e.g., `Number_of_Riders`, `Number_of_Drivers`, `Historical_Cost_of_Ride`) are accurate and reflect real-world scenarios.   
+- Rows in the dataset represent events in chronological order, and the rows are sequential.  
+- Each ride request is unique, with no overlapping rides for the same driver or rider.  
+- `Number_of_Riders` and `Number_of_Drivers` accurately represent real-time demand and supply at the time of booking.  
+- The `Time_of_Booking` feature effectively captures temporal demand patterns (e.g., peak and off-peak times) without requiring detailed timestamps.  
+- The `Location_Category` feature reflects geographical cost differences (e.g., urban areas generally have higher fares than suburban ones).  
+- Different `Vehicle_Type` categories have unique base fare structures, with Premium vehicles costing more than Economy vehicles.  
+- Each ride instance is independent of others, with no dependency on previous or future rides.  
+- The model predicts fares based solely on the provided features, excluding external factors like fuel prices, weather, or traffic conditions.  
+- Fares can be adjusted dynamically without significantly affecting demand; small price increases are unlikely to drastically reduce ride requests.  
+- The relationships between features (e.g., demand-supply ratio and `Historical_Cost_of_Ride`) are stable and consistent across the dataset.  
+- Real-time data for `Number_of_Riders`, `Number_of_Drivers`, and `Time_of_Booking` will be available during deployment.  
 
 13. **Model Retraining**  
     - The model will be periodically updated to incorporate changes in demand patterns, customer behavior, or operational dynamics.  
