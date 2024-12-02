@@ -42,18 +42,10 @@ To ensure a clear understanding of the project and its limitations, the followin
 - Fares can be adjusted dynamically without significantly affecting demand; small price increases are unlikely to drastically reduce ride requests.  
 - The relationships between features (e.g., demand-supply ratio and `Historical_Cost_of_Ride`) are stable and consistent across the dataset.  
 - Real-time data for `Number_of_Riders`, `Number_of_Drivers`, and `Time_of_Booking` will be available during deployment.  
-
-13. **Model Retraining**  
-    - The model will be periodically updated to incorporate changes in demand patterns, customer behavior, or operational dynamics.  
-
-14. **Dynamic Pricing Adoption**  
-    - The company is willing to implement and adjust fares dynamically based on the model's recommendations.  
-
-15. **Operational Constraints**  
-    - There are no regulatory or operational constraints preventing dynamic pricing adjustments.  
-
-16. **Customer Acceptance**  
-    - Customers are likely to accept dynamically priced fares based on market conditions.  
+- The model will be periodically updated to incorporate changes in demand patterns, customer behavior, or operational dynamics.  
+- The company is willing to implement and adjust fares dynamically based on the model's recommendations.  
+- There are no regulatory or operational constraints preventing dynamic pricing adjustments.  
+- Customers are likely to accept dynamically priced fares based on market conditions.  
 
 
 ## Methodology
