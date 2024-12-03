@@ -214,3 +214,29 @@ The oblique trend line suggests a positive correlation between **Expected Ride D
 **Pricing Strategy:**
 - **Surge Pricing:** Consider implementing surge pricing during peak hours (night and afternoon) to manage demand and optimize revenue.
 
+![Alt Text](images/vehicletype_costofride.png)
+
+- The box plot shows that premium vehicles have the highest median cost, indicating that, on average, premium rides are more expensive than economy rides. This is consistent with expectations, as premium services typically offer higher-end vehicles or additional services. Both the Q1 (first quartile) and Q3 (third quartile) for premium vehicles are higher compared to economy vehicles, which suggests that the spread of prices for premium rides is consistently higher. This might reflect a wider variation in the types of premium services offered.
+- The median cost for economy vehicles is lower, reflecting the more budget-friendly nature of this option. The Q1 and Q3 for economy vehicles are lower, indicating a tighter price range, likely due to the more standardized, budget-friendly nature of the service.
+- There are no outliers in the data for either vehicle type, indicating that the price distribution is relatively consistent without extreme deviations in either category.
+**Business Implications:**
+**Pricing Strategy:**
+- **Premium vehicle services** can maintain or even increase their pricing, as the higher cost is justified by the enhanced service and vehicle type. Offering **tiered pricing** for economy vs. premium can appeal to different customer segments.
+**Customer Segmentation:**
+- Understanding that **premium customers** are paying higher costs can inform **loyalty programs**, **special promotions**, or **targeted marketing** for each group.
+**Operational Decisions:**
+- If the **demand for premium rides** is higher, additional resources might be needed to meet this demand, while **economy rides** might see more consistent demand across the day.
+
+![Alt Text](images/ratings_costofride.png)
+
+- The trendline for rural areas is ascending, indicating that as the historical cost of a ride increases, the average ratings also tend to improve. This could suggest that in rural areas, customers may feel that higher-priced rides (potentially associated with better services, longer distances, or premium vehicles) justify a higher satisfaction level. It might indicate that rural customers are more sensitive to the perceived value of higher-cost rides or associate premium pricing with a better experience.
+- The descending trendlines in urban and suburban areas suggest that as the historical cost of a ride increases, the average ratings tend to decrease. This implies that, in these areas, higher-cost rides might be associated with dissatisfaction or expectations not being met. For example, urban and suburban riders might feel that they are paying more for a service that doesn't offer proportional improvements in experience, leading to lower satisfaction levels.
+
+**Business Implications:**
+**Rural Areas:**
+In rural locations, offering premium or higher-cost services may help meet customer expectations, and businesses can use this insight to promote higher-priced options or package deals to improve satisfaction and profitability.
+**Urban and Suburban Areas:**
+For urban and suburban locations, the key to improving customer ratings may involve providing more consistent, high-quality service at all price points. While higher prices may reduce satisfaction, businesses might explore offering incentives or ensuring premium services genuinely meet customer expectations to avoid dissatisfaction.
+**Targeted Pricing and Service Improvements:**
+- In rural areas, businesses can position higher-cost services as premium or luxury options, focusing on providing exceptional value to justify the cost.
+- In urban and suburban areas, focusing on maintaining consistent, quality service while managing pricing may help improve satisfaction and prevent a negative relationship between cost and ratings.
