@@ -240,3 +240,55 @@ For urban and suburban locations, the key to improving customer ratings may invo
 **Targeted Pricing and Service Improvements:**
 - In rural areas, businesses can position higher-cost services as premium or luxury options, focusing on providing exceptional value to justify the cost.
 - In urban and suburban areas, focusing on maintaining consistent, quality service while managing pricing may help improve satisfaction and prevent a negative relationship between cost and ratings.
+
+## Feature Ingineering
+- Classify customers into four distinct categories based on their number of past rides: New Customer, Occasional Customer, Regular Customer, and Frequent Customer. If a customer has taken 0 rides, they are classified as a New Customer. If they have taken 1 to 10 rides, they are categorized as an Occasional Customer. For 11 to 50 rides, they are considered a Regular Customer. Customers with more than 50 rides are deemed Frequent Customers. This new column makes it easier to analyze patterns in customer behavior and segment customers for targeted strategies.
+
+![Alt Text](images/custtype_dist.png)
+
+![Alt Text](images/piechart.png)
+**Frequent Customers (507)**:
+   - Majority of the customers fall into this category, indicating a strong base of loyal and engaged riders.
+   - These customers are likely the most valuable, contributing significantly to ride revenue.
+**Regular Customers (385)**:
+   - A substantial proportion of the customer base rides regularly, representing consistent users who may not yet be fully loyal.
+   - This group presents an opportunity for targeted incentives to increase loyalty.
+**Occasional Customers (98)**:
+   - This smaller group consists of less frequent riders who use the service sporadically.
+   - Marketing efforts could aim to convert these customers into regular or frequent riders.
+**New Customers (10)**:
+   - The smallest category, indicating limited recent onboarding.
+   - This highlights the need for stronger acquisition strategies to attract more first-time users.
+**Business Implications:**
+- **Retention Focus**: High retention in the Frequent and Regular categories is a positive sign, suggesting customer satisfaction and engagement.
+- **Growth Opportunity**: There’s room to expand the customer base, especially by converting Occasional and New customers into more consistent riders.
+- **Marketing Strategy**: Tailored campaigns for different customer types can maximize value (e.g., rewards for frequent riders, discounts for new customers).
+
+- The new column Loyalty_and_Rides combines Customer_Loyalty_Status and Number_of_Past_Rides into a single feature. This feature allows us to analyze the relationship between loyalty status and the number of past rides, providing insights into how customer loyalty influences ride behavior.
+
+![Alt Text](images/loy_pastrides.png)
+
+**Observations:**
+**Gold Customers**:  
+- Represent **48.25%** of the ride counts.  
+- This relatively high proportion indicates that Gold loyalty customers contribute significantly to the overall ride volume.
+**Regular Customers**:  
+- Account for **50.84%** of ride counts.  
+- Their share is slightly higher than Gold customers, suggesting they are the primary group utilizing the service.
+**Silver Customers**:  
+- Contribute **50.84%** of ride counts (similar to Regular customers).  
+- While the proportions are close, Silver customers might consist of a larger base but lower frequency riders compared to Gold.
+
+---
+
+**Interpretation:**
+- **Correlation with Ride Counts**: Higher loyalty tiers, particularly Gold, are associated with higher ride counts, reflecting their deeper engagement or frequent usage of the service.  
+- **Retention Strategy**: Gold customers appear to be a smaller but highly valuable segment. Investing in retaining and growing this tier could yield high returns.  
+- **Silver & Regular Mix**: Despite similar percentages, Silver and Regular customers may differ in ride frequency. Understanding this dynamic could inform promotional or loyalty strategies.  
+
+---
+
+**Business Implications:**
+- **Focus on Engagement**: Create exclusive incentives for Gold customers to maintain their high engagement.  
+- **Convert Silver to Gold**: Introduce rewards that encourage Silver customers to upgrade to Gold status, leveraging their substantial ride contributions.  
+- **Optimize for Regular Customers**: Since Regular customers form the largest user group, targeted offers can maximize their lifetime value.  
