@@ -153,7 +153,19 @@ The data reveals that:
 
 The left-skewed distribution, combined with the dominance of rural areas in the first bin, highlights the disparity in driver availability and demand across location categories. Tailored strategies for recruitment, allocation, and operations can help address these differences effectively.
 
-
+![Alt Text](images/riders_divers.png) 
   
+## General Relationship  
+
+- The plot reveals a direct and positive relationship between the number of riders and drivers. As the number of riders increases, the number of drivers also tends to rise.  
+- The upward-sloping trend line confirms that areas with higher rider counts generally require more drivers to meet demand effectively.  
+- The triangular shape indicates that the number of drivers caps the number of riders that can be served at any given time, creating a natural ceiling on rider capacity.  
+- Periods where drivers outnumber riders suggest low demand, whereas instances of more riders than drivers indicate potential unmet demand.  
+- Urban areas dominate the higher ranges of riders and drivers, reflecting the heavy usage and high demand typical of cities.  
+- Suburban and rural regions are clustered at lower rider and driver counts, suggesting smaller-scale operations or less frequent usage.  
+
+**Business Insight:**  
+- Balancing the availability of drivers with rider demand is essential, particularly in urban areas where unmet demand is most likely to occur.  
+- Rural and suburban regions may benefit from targeted driver incentives or optimized service allocation to enhance operational efficiency and meet localized demand effectively.  
 
   
