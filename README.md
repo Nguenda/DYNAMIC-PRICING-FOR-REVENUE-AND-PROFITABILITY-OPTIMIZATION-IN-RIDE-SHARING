@@ -247,18 +247,23 @@ For urban and suburban locations, the key to improving customer ratings may invo
 ![Alt Text](images/custtype_dist.png)
 
 ![Alt Text](images/piechart.png)
+
 **Frequent Customers (507)**:
    - Majority of the customers fall into this category, indicating a strong base of loyal and engaged riders.
    - These customers are likely the most valuable, contributing significantly to ride revenue.
+     
 **Regular Customers (385)**:
    - A substantial proportion of the customer base rides regularly, representing consistent users who may not yet be fully loyal.
    - This group presents an opportunity for targeted incentives to increase loyalty.
+     
 **Occasional Customers (98)**:
    - This smaller group consists of less frequent riders who use the service sporadically.
    - Marketing efforts could aim to convert these customers into regular or frequent riders.
+     
 **New Customers (10)**:
    - The smallest category, indicating limited recent onboarding.
    - This highlights the need for stronger acquisition strategies to attract more first-time users.
+     
 **Business Implications:**
 - **Retention Focus**: High retention in the Frequent and Regular categories is a positive sign, suggesting customer satisfaction and engagement.
 - **Growth Opportunity**: There’s room to expand the customer base, especially by converting Occasional and New customers into more consistent riders.
