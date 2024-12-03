@@ -142,8 +142,17 @@ The data reveals that:
   - **Suburban:** Emphasize family-friendly services or rideshare options to appeal to group travelers.  
   - **Rural:** Promote availability for long-distance travel or group events to meet unique local needs.  
 
-  
-  
+ ![Alt Text](images/drivers_location.png) 
+
+ The plot shows that only a few locations have a high number of drivers.
+
+**Insights:**
+- Urban locations show a steady presence across all bins, with a slight dominance in higher driver counts. This pattern aligns with consistent and high demand in urban areas, necessitating reliable driver availability.  
+- Suburban regions contribute significantly in the lower bins, tapering off as driver counts increase. This trend reflects moderate population densities and demand levels typical of suburban areas.  
+- Rural areas dominate the first bin, highlighting a scarcity of drivers and lower demand. Minimal contributions in higher bins are consistent with fewer drivers being required for sporadic or low-frequency rides in these regions.
+
+The left-skewed distribution, combined with the dominance of rural areas in the first bin, highlights the disparity in driver availability and demand across location categories. Tailored strategies for recruitment, allocation, and operations can help address these differences effectively.
+
 
   
 
