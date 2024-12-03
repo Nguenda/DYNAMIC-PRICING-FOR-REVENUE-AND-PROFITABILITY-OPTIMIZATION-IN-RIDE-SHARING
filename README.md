@@ -123,7 +123,7 @@ Frequent fluctuations in the demand-supply ratio indicate periods of high demand
 
 **Insights and Implications:** Spikes in the ratio suggest opportunities to optimize driver allocation in areas or times of high demand. This could help mitigate extreme surges, improve service quality, and reduce fare volatility.
 
- 
+![Alt Text](images/rides_by_location.png)
 
   
   
