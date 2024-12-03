@@ -242,7 +242,7 @@ For urban and suburban locations, the key to improving customer ratings may invo
 - In urban and suburban areas, focusing on maintaining consistent, quality service while managing pricing may help improve satisfaction and prevent a negative relationship between cost and ratings.
 
 ## Feature Ingineering
-- Classify customers into four distinct categories based on their number of past rides: New Customer, Occasional Customer, Regular Customer, and Frequent Customer. If a customer has taken 0 rides, they are classified as a New Customer. If they have taken 1 to 10 rides, they are categorized as an Occasional Customer. For 11 to 50 rides, they are considered a Regular Customer. Customers with more than 50 rides are deemed Frequent Customers. This new column makes it easier to analyze patterns in customer behavior and segment customers for targeted strategies.
+Classify customers into four distinct categories based on their number of past rides: New Customer, Occasional Customer, Regular Customer, and Frequent Customer. If a customer has taken 0 rides, they are classified as a New Customer. If they have taken 1 to 10 rides, they are categorized as an Occasional Customer. For 11 to 50 rides, they are considered a Regular Customer. Customers with more than 50 rides are deemed Frequent Customers. This new column makes it easier to analyze patterns in customer behavior and segment customers for targeted strategies.
 
 ![Alt Text](images/custtype_dist.png)
 
@@ -269,12 +269,11 @@ For urban and suburban locations, the key to improving customer ratings may invo
 - **Growth Opportunity**: There’s room to expand the customer base, especially by converting Occasional and New customers into more consistent riders.
 - **Marketing Strategy**: Tailored campaigns for different customer types can maximize value (e.g., rewards for frequent riders, discounts for new customers).
 
-
+**Revenue contribution by customer type**
 ![Alt Text](images/contribution.png)
 
-**Revenue contribution by customer type**
 
-- The new column Loyalty_and_Rides combines Customer_Loyalty_Status and Number_of_Past_Rides into a single feature. This feature allows us to analyze the relationship between loyalty status and the number of past rides, providing insights into how customer loyalty influences ride behavior.
+The new column Loyalty_and_Rides combines Customer_Loyalty_Status and Number_of_Past_Rides into a single feature. This feature allows us to analyze the relationship between loyalty status and the number of past rides, providing insights into how customer loyalty influences ride behavior.
 
 ![Alt Text](images/loy_pastrides.png)
 
