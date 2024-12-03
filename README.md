@@ -125,6 +125,23 @@ Frequent fluctuations in the demand-supply ratio indicate periods of high demand
 
 ![Alt Text](images/rides_by_location.png)
 
+The data reveals that:
+- Urban areas dominate the distribution with consistent contributions across all rider counts, reflecting the primary demand for the service originating from cities.  
+- The suburban layer displays variability with spikes around specific Number_of_Riders values, potentially indicating preferences for family or small group travel.  
+- Rural contributions are intermittent, with peaks likely representing occasional larger group requirements or isolated high-demand scenarios.
+
+**Business Implications:**
+
+- **Resource Allocation:**  
+  - **Urban Areas:** Continuous driver availability is essential to meet steady demand.  
+  - **Suburban Areas:** Strategies should target evening or weekend peaks when group rides are more frequent.  
+  - **Rural Areas:** Promotions or specialized services could cater to larger group rides or specific events.  
+
+- **Marketing Focus:**  
+  - **Urban:** Highlight everyday convenience and efficiency to attract regular riders.  
+  - **Suburban:** Emphasize family-friendly services or rideshare options to appeal to group travelers.  
+  - **Rural:** Promote availability for long-distance travel or group events to meet unique local needs.  
+
   
   
 
