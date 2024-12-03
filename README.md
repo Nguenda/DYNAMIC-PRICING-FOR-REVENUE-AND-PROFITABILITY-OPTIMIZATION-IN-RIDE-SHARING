@@ -168,4 +168,49 @@ The left-skewed distribution, combined with the dominance of rural areas in the 
 - Balancing the availability of drivers with rider demand is essential, particularly in urban areas where unmet demand is most likely to occur.  
 - Rural and suburban regions may benefit from targeted driver incentives or optimized service allocation to enhance operational efficiency and meet localized demand effectively.  
 
+![Alt Text](images/loyalty_cost_ride.png) 
+
+- Gold customers consistently incur the highest ride costs across all quartiles, with the highest median fare. This indicates that Gold customers typically request more expensive rides or use premium services.  
+- Regular customers exhibit more variability in ride costs, with both a higher Q3 and Q1 than Gold and Silver customers. This suggests that Regular customers may use the service for more varied purposes, including some higher-cost rides.  
+- Silver customers tend to have the most consistent and lowest-cost rides overall, with their ride costs clustered towards the lower end of the spectrum.  
+- No extreme outliers are observed, indicating that ride costs for all customer groups fall within reasonable and expected limits.  
   
+**Business Implications:**
+- **Targeted Pricing Strategy:**  
+  - **Gold Customers:** With the highest median cost, Gold customers likely prefer premium services. Consider offering exclusive packages and premium options to cater to their preferences.  
+  - **Regular Customers:** This group displays mixed spending behavior. Utilize dynamic pricing and explore upselling opportunities to enhance their value and increase overall spending.  
+  - **Silver Customers:** Generally, Silver customers have lower spending patterns. Introduce incentives such as discounts and upsells to encourage them to upgrade to higher-tier services.  
+
+- **Customer Retention and Loyalty Programs:**  
+  - **Gold Customers:** Retain Gold customers by offering VIP experiences, priority support, and exclusive benefits tailored to their status.  
+  - **Regular Customers:** Incentivize upgrades to Gold status by offering rewards and personalized offers, strengthening their loyalty.  
+  - **Silver Customers:** Provide loyalty incentives aimed at increasing engagement and facilitating their transition to higher tiers.  
+
+![Alt Text](images/duration_cost_ride.png) 
+  
+The oblique trend line suggests a positive correlation between **Expected Ride Duration** and **Historical Cost of Ride**. As the duration of the ride increases, so does the cost. This trend aligns with the idea that longer trips generally involve higher costs due to factors such as distance and time.  
+- **Economy Vehicles:** Typically associated with shorter rides and lower costs, as expected.  
+- **Premium Vehicles:** Tend to have longer rides and higher costs, supporting the idea that premium services are often used for longer, more expensive trips.
+
+**Business Implications:**
+- Businesses should price longer trips higher, particularly for premium vehicles. This aligns with customer expectations where longer trips in premium vehicles are more expensive.
+- Ensure an adequate number of premium vehicles are available for longer, higher-cost rides, and economy vehicles for shorter trips.
+- Offering premium options for longer rides can improve profitability, while economy rides should maintain cost-efficiency.
+
+![Alt Text](images/booking_time_day.png) 
+
+**Time of Day Patterns:**
+- The highest number of ride bookings occur at night, indicating that customers prefer using the service during the night hours. This could be attributed to late-night travel, possibly for entertainment, work shifts, or other evening activities.
+- The second-highest number of bookings happens in the afternoon, likely driven by mid-day travel, including work-related commutes, errands, or social outings.
+- The morning bookings are relatively fewer, which may reflect the routine commutes or early-day activities where fewer people are booking rides compared to later in the day.
+- The least amount of bookings occur in the evening, suggesting that customers might prefer other transport options or that ride requests during this period are lower due to less demand.
+
+**Business Implications:**
+**Operational Strategy:**
+- **Night Shifts:** Given the high number of bookings at night, it may be beneficial to increase driver availability during these hours, ensuring quick response times and higher customer satisfaction.
+- **Peak Times Management:** The afternoon surge may require a more balanced distribution of drivers to meet demand, ensuring timely service.
+**Marketing:**
+- **Targeted promotions or loyalty programs** for evening or morning riders could boost bookings during off-peak times.
+**Pricing Strategy:**
+- **Surge Pricing:** Consider implementing surge pricing during peak hours (night and afternoon) to manage demand and optimize revenue.
+
