@@ -71,23 +71,6 @@ Pricing and promotional strategies were developed and simulated at various level
 - **Simulation of `Booking_Channel`**: Analyzed and simulated booking patterns based on `Time_of_Booking` and `Location_Category` to identify optimal pricing and promotional opportunities.
 - **Market-Specific Adjustments**: Tailored pricing and promotions for different markets to maximize revenue and customer satisfaction.
 
-**Machine Learning Model Development**
-
-For the development of the dynamic pricing model, the following steps were performed:
-
-1. **Dataset Splitting**: The dataset was split into training and testing sets using the `train_test_split` function from `sklearn.model_selection` to ensure robust model evaluation.
-2. **Baseline Model**: Linear Regression was used as a baseline model for predicting ride fares.
-
-#### Model Evaluation
-
-The final model was evaluated using standard regression metrics, including:
-
-- **Mean Absolute Error (MAE)**
-- **Mean Squared Error (MSE)**
-- **R-squared**
-
-These metrics ensured the model's reliability and accuracy in predicting optimal ride fares. This comprehensive approach allowed for the successful implementation of a dynamic pricing strategy to enhance revenue and operational performance.
-
 # EDA
 ![Alt Text](images/timesseriesplot.png)
 
