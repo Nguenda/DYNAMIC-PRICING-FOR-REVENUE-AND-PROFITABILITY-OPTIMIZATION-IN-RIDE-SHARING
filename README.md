@@ -60,8 +60,6 @@ The data is public data sourced from Kaggle. The collected datasets were cleaned
 1. The dataset lacks a datetime column but includes features like Time_of_Booking, which indicates temporal aspects of ride requests (e.g., Night and Evening).
 2. The rows may or may not be sequentially ordered in time. 
 
-**Strategies Implemented**
-
 To address the problem, the following strategies were employed:
 1. **Driver Allocation Strategy**: Optimized the allocation of drivers to high-demand areas based on historical and real-time data to improve availability and reduce wait times.
 2. **Customer Segmentation Strategy**: Used customer data to segment users into different categories (e.g., loyalty status, ride frequency) to tailor services and pricing more effectively.
