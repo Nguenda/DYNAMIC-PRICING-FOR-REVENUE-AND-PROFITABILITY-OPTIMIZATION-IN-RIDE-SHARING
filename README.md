@@ -305,6 +305,12 @@ The new column Loyalty_and_Rides combines Customer_Loyalty_Status and Number_of_
 # Implementing a Dynamic Pricing Strategy
 
 ## Phase 1: Optimize Driver Strategy
+**Demand pattern by time of day and location**
+![Alt Text](images/heatmap.png)
+
+Urban customers place the highest number of orders at night. The most orders in suburban areas occur in the afternoon. For rural areas, the peak ordering time is in the evening. This distribution highlights varying demand patterns across locations and times, providing valuable insights for aligning driver availability and planning targeted strategies.  
+**Demand Prediction**
+
 
 ## Phase 2: Customer Segmentation Optimization
 
