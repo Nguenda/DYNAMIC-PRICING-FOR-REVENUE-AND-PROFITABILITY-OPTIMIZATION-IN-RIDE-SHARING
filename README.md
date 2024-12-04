@@ -277,7 +277,6 @@ The new column Loyalty_and_Rides combines Customer_Loyalty_Status and Number_of_
 
 # Implementing a Dynamic Pricing Strategy
 
-## Phase 1: Optimize Driver Strategy
 **Demand pattern by time of day and location**
 ![Alt Text](images/heatmap.png)
 
@@ -285,6 +284,3 @@ Urban customers place the highest number of orders at night. The most orders in 
 **Demand Prediction**
 
 
-## Phase 2: Customer Segmentation Optimization
-
-## Phase 3: Dynamic Pricing
