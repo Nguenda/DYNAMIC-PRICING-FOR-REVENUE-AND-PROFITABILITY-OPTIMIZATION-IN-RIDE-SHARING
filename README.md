@@ -283,4 +283,14 @@ The new column Loyalty_and_Rides combines Customer_Loyalty_Status and Number_of_
 Urban customers place the highest number of orders at night. The most orders in suburban areas occur in the afternoon. For rural areas, the peak ordering time is in the evening. This distribution highlights varying demand patterns across locations and times, providing valuable insights for aligning driver availability and planning targeted strategies.  
 **Demand Prediction**
 
+## Demand Forcasting
 
+![Alt Text](images/demand_pred_act.png)
+
+![Alt Text](images/demand_feat_imp.png)
+
+## Supply Forcasting
+
+![Alt Text](images/supply_act_pred.png)
+
+![Alt Text](images/supply_feat_imp.png)
