@@ -330,7 +330,7 @@ Urban customers place the highest number of orders at night. The most orders in 
   ## Step 4: Dynamic Pricing Strategy (forcasted data with a shape of (200,))
 
 
-![Alt Text](images/images/increase2.png)
+![Alt Text](images/increase2.png)
 
 **Financial Impact: 10% increase per unit ratio**
 
