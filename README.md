@@ -335,30 +335,21 @@ Urban customers place the highest number of orders at night. The most orders in 
 **Financial Impact: 10% increase per unit ratio**
 
 - **Total Predicted Revenue Increase**:  
-  The total increase in revenue is **$8977.63**.
+  The total increase in revenue is **$8,977.63**.
 
 - **Total Predicted Profit Increase (after costs)**:  
-  The total increase in profit, after accounting for costs, is **$4803.63** for cost_per_ride = 20.87.
+  The total increase in profit, after accounting for costs, is **$4,803.63** for cost_per_ride = 20.87.
 
-  ![Alt Text](images/increase2.png)
-
-**Financial Impact: 10% increase per unit ratio**
-
-- **Total Predicted Revenue Increase**:  
-  The total increase in revenue is **$8977.63**.
-
-- **Total Predicted Profit Increase (after costs)**:  
-  The total increase in profit, after accounting for costs, is **$4803.63** for cost_per_ride = 20.87.
 
     ![Alt Text](images/inc.png)
 
 **Financial Impact: 20% increase per unit ratio**
 
 - **Total Predicted Revenue Increase**:  
-  The total increase in revenue is **$17086.96**.
+  The total increase in revenue is **$17,086.96**.
 
 - **Total Predicted Profit Increase (after costs)**:  
-  The total increase in profit, after accounting for costs, is **$12912.96** for cost_per_ride = 20.87.
+  The total increase in profit, after accounting for costs, is **$12,912.96** for cost_per_ride = 20.87.
 
   ### Final Thoughts
 
