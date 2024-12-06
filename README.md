@@ -317,7 +317,7 @@ Urban customers place the highest number of orders at night. The most orders in 
   Therefore, the predicted cost for a 30-minute ride is **$126.79**.  
 
 
-![Alt Text](images/images/revincreased.png)
+![Alt Text](images/revincreased.png)
 
 **Financial Impact:**
 
