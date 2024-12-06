@@ -325,4 +325,4 @@ Urban customers place the highest number of orders at night. The most orders in 
   The total increase in revenue is **$44,970.93**.
 
 - **Total Profit Increase (after costs)**:  
-  The total increase in profit, after accounting for costs, is **$24,100.93**.
+  The total increase in profit, after accounting for costs, is **$24,100.93** for cost_per_ride = 20.87.
