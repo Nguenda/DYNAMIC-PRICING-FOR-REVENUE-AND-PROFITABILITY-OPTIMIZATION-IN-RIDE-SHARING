@@ -299,7 +299,7 @@ Urban customers place the highest number of orders at night. The most orders in 
 
 ![Alt Text](images/supply_feat_imp.png)
 
-## Step 3: Dynamic Pricing Strategy
+## Step 3: Dynamic Pricing Strategy (actual data with a shape of (1000,))
 
 ![Alt Text](images/theincrease.png)
 
@@ -326,3 +326,44 @@ Urban customers place the highest number of orders at night. The most orders in 
 
 - **Total Profit Increase (after costs)**:  
   The total increase in profit, after accounting for costs, is **$24,100.93** for cost_per_ride = 20.87.
+
+  ## Step 4: Dynamic Pricing Strategy (forcasted data with a shape of (200,))
+
+
+![Alt Text](images/images/increase2.png)
+
+**Financial Impact: 10% increase per unit ratio**
+
+- **Total Predicted Revenue Increase**:  
+  The total increase in revenue is **$8977.63**.
+
+- **Total Predicted Profit Increase (after costs)**:  
+  The total increase in profit, after accounting for costs, is **$4803.63** for cost_per_ride = 20.87.
+
+  ![Alt Text](images/increase2.png)
+
+**Financial Impact: 10% increase per unit ratio**
+
+- **Total Predicted Revenue Increase**:  
+  The total increase in revenue is **$8977.63**.
+
+- **Total Predicted Profit Increase (after costs)**:  
+  The total increase in profit, after accounting for costs, is **$4803.63** for cost_per_ride = 20.87.
+
+    ![Alt Text](images/inc.png)
+
+**Financial Impact: 20% increase per unit ratio**
+
+- **Total Predicted Revenue Increase**:  
+  The total increase in revenue is **$17086.96**.
+
+- **Total Predicted Profit Increase (after costs)**:  
+  The total increase in profit, after accounting for costs, is **$12912.96** for cost_per_ride = 20.87.
+
+  ### Final Thoughts
+
+- **Monitor and Adapt**:  
+  Test the x% adjustment empirically. If it leads to higher revenues and profit without significant customer loss, it’s a sound approach. Otherwise, consider fine-tuning the multiplier.
+
+- **Dynamic Capping**:  
+  If extreme ratios lead to impractical pricing, consider capping the multiplier.
