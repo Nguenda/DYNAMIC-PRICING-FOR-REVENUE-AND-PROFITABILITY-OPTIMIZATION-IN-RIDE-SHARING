@@ -287,14 +287,42 @@ The new column Loyalty_and_Rides combines Customer_Loyalty_Status and Number_of_
 Urban customers place the highest number of orders at night. The most orders in suburban areas occur in the afternoon. For rural areas, the peak ordering time is in the evening. This distribution highlights varying demand patterns across locations and times, providing valuable insights for aligning driver availability and planning targeted strategies.  
 **Demand Prediction**
 
-## Demand Forcasting
+## Step 1: Demand Forcasting
 
 ![Alt Text](images/demand_pred_act.png)
 
 ![Alt Text](images/demand_feat_imp.png)
 
-## Supply Forcasting
+## Step 2: Supply Forcasting
 
 ![Alt Text](images/supply_act_pred.png)
 
 ![Alt Text](images/supply_feat_imp.png)
+
+## Step 3: Dynamic Pricing Strategy
+
+![Alt Text](images/theincrease.png)
+
+- **Slope (𝛽₁)**:  
+  The slope, 𝛽₁ = 3.53, indicates that the ride cost increases by approximately **$3.53 for every additional minute** of ride duration.  
+
+- **Intercept (𝛽₀)**:  
+  The intercept, 𝛽₀ = 20.87, represents the **base fare of $20.87** when the ride duration is zero.  
+
+- **Example Prediction**:  
+  For a **30-minute ride**, the predicted cost is calculated as:  
+  \[
+  \text{Cost} = 𝛽₀ + (𝛽₁ \times \text{Ride Duration}) = 20.87 + (3.53 \times 30) = 126.79
+  \]  
+  Therefore, the predicted cost for a 30-minute ride is **$126.79**.  
+
+
+![Alt Text](images/images/revincreased.png)
+
+**Financial Impact:**
+
+- **Total Revenue Increase**:  
+  The total increase in revenue is **$44,970.93**.
+
+- **Total Profit Increase (after costs)**:  
+  The total increase in profit, after accounting for costs, is **$24,100.93**.
